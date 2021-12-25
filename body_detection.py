@@ -68,10 +68,7 @@ def detectPose(image, pose, draw=False, display=False):
         # Return the output image and the results of pose landmarks detection.
         return output_image, results
 
-# Read a sample image and perform pose landmarks detection on it.
-IMG_PATH = 'media/sample.jpg'
-image = cv2.imread(IMG_PATH)
-detectPose(image, pose_image, draw=True, display=True)
+
 
 def checkHandsJoined(image, results, draw=False, display=False):
     '''
